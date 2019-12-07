@@ -1,0 +1,12 @@
+@tailwind base;
+
+a {
+  @apply text-primary underline;
+}
+a:hover {
+  @apply text-primary-darker;
+}
+
+@tailwind components;
+
+@tailwind utilities;
