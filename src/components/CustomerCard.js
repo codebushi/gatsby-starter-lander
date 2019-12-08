@@ -1,12 +1,8 @@
 import React from 'react';
+import Card from './Card';
 
 const CustomerCard = ({ customer }) => (
-  <div
-    className="p-12 rounded-lg"
-    style={{
-      boxShadow: '0 10px 28px rgba(0,0,0,.08)'
-    }}
-  >
+  <Card className="mb-8">
     <p className="text-xl font-semibold">{customer.title}</p>
     <p className="mt-6">{customer.content}</p>
     <div className="flex items-center mt-8">
@@ -20,7 +16,7 @@ const CustomerCard = ({ customer }) => (
         <p className="text-sm text-gray-600">{customer.customerTitle}</p>
       </div>
     </div>
-  </div>
+  </Card>
 );
 
 export default CustomerCard;

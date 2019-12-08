@@ -4,15 +4,17 @@ import Button from '../Button';
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
-    <div className="container flex items-center mx-auto py-4 px-8">
+    <div className="container flex justify-between items-center mx-auto py-4 px-8">
       <div className="flex items-center text-2xl">
         <div className="w-12 mr-3">
           <LogoIcon />
         </div>
-        Logo
+        Lander
       </div>
-      <div className="ml-12">Links</div>
-      <div className="ml-auto">
+      <div>
+        <button type="button">Links</button>
+      </div>
+      <div>
         <Button className="text-sm">Start Free Trial</Button>
       </div>
     </div>
