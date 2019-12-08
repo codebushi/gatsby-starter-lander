@@ -47,7 +47,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Service Two</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
@@ -56,7 +56,7 @@ export default () => (
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Service Three</p>
               <p className="mt-4">
                 An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
                 velna vitae auctor integer.
