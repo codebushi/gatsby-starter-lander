@@ -20,6 +20,17 @@ const Footer = () => (
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Social Media</h2>
+        <ul className="mt-4 leading-loose">
+          <li>
+            <a href="https://dev.to/changoman">Dev.to</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/HuntaroSan">Twitter</a>
+          </li>
+          <li>
+            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+          </li>
+        </ul>
       </div>
     </div>
   </footer>
