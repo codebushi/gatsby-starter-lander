@@ -19,12 +19,12 @@ export default () => (
             Your PDX General Contractor
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
-            Commercial, residential and retail, on time and on budget, and PDX expertise
+            Responsibilty, Respect, Honesty
           </p>
           <p className="mt-8 md:mt-12">
             <Button size="lg">Get Started</Button>
           </p>
-          <p className="mt-4 text-gray-600">Sed fermentum felis ut cursu</p>
+          <p className="mt-4 text-gray-600">Portland metro areas and surroundings</p>
         </div>
         <div className="lg:w-1/2">
           <HeroImage />
@@ -37,28 +37,25 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service One</p>
+              <p className="font-semibold text-xl">Framing</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                From framing an extra closet or an entire room, weve got it covered.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Two</p>
+              <p className="font-semibold text-xl">Drywall</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                If its a 2 feet patch or an entire house needed to be hanged and taped, dont worry we got it covered.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Service Three</p>
+              <p className="font-semibold text-xl">Paint</p>
               <p className="mt-4">
-                An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio
-                velna vitae auctor integer.
+                Your ideas, your choice of color, our job to get it done .
               </p>
             </Card>
           </div>
@@ -69,10 +66,9 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Market Analysis</h3>
+          <h3 className="text-3xl font-semibold leading-tight">Contractors/ Sub-Contractors</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team of enthusiastic marketers will analyse and evaluate how your company stacks
-            against the closest competitors
+            Our team is selective of chosing professional sub-contractors, Leave it all up to us and we will make sure you get your project done.
           </p>
         </div>
       }
@@ -83,11 +79,10 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Business Growth Steps
+            Design And Plan Your Ideal Home
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Once the market analysis process is completed our staff will search for opportunities
-            that are in reach
+            Our team will work with you directly to assure you are getting the best work for your money.
           </p>
         </div>
       }
@@ -112,10 +107,10 @@ export default () => (
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="100%" secondaryText="Customer Satisfaction" />
           </div>
           <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
+            <StatsBox primaryText="22" secondaryText="Projects done" />
           </div>
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="+100%" secondaryText="Stats Information" />
@@ -136,9 +131,9 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
+      <h3 className="text-5xl font-semibold">Ready to create your ideal home ? 
       <p className="mt-8 text-xl font-light">
-        Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
+        Contact us! (503) 327 1232, Chelseapdxconstruction@gmail.com 
       </p>
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
