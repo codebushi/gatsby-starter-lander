@@ -134,6 +134,7 @@ export default () => (
       <h3 className="text-5xl font-semibold">Ready to create your ideal home ?> 
       <p className="mt-8 text-xl font-light">
         Contact us! (503) 327 1232, Chelseapdxconstruction@gmail.com 
+      </h3>
       </p>
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
