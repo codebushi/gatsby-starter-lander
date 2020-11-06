@@ -112,7 +112,10 @@ export default () => (
           <div className="w-full sm:w-1/2">
             <StatsBox primaryText="22" secondaryText="Projects done" />
          </div>
-    
+        </div>
+       </div>
+      </section>
+   
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
