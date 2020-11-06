@@ -111,9 +111,6 @@ export default () => (
           </div>
           <div className="w-full sm:w-1/3">
             <StatsBox primaryText="22" secondaryText="Projects done" />
-          </div>
-         
-
       </div>
     </section>
     <section id="testimonials" className="py-20 lg:py-40">
