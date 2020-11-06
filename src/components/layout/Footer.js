@@ -15,7 +15,7 @@ const Footer = () => (
             <a href="https://dev.to/changoman">Dev.to</a>
           </li>
           <li>
-            <a href="https://twitter.com/HuntaroSan">Twitter</a>
+            <a href="https://instagram.com/Chelseaconstructionllc">Instagram</a>
           </li>
           <li>
             <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
