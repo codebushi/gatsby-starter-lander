@@ -13,9 +13,6 @@ const Footer = () => (
         <h2 className="text-lg font-semibold">Social Media</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://dev.to/changoman">Dev.to</a>
-          </li>
-          <li>
             <a href="https://instagram.com/Chelseaconstructionllc">Instagram</a>
           </li>
         </ul>
