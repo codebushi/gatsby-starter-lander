@@ -1,7 +1,7 @@
 import React from 'react';
 
 const LogoIcon = () => (
-  <svg xmlns=""file:///Users/luiscampos/Desktop/Screen%20Shot%202020-10-29%20at%209.30.17%20AM.pngviewBox="0 0 48 48">
+  <svg xmlns=""file:>https://www.w3.org/2000/svg
     <path fill="#BEE3F8" d="M44,7L4,23l40,16l-7-16L44,7z M36,23H17l18-7l1,6V23z" />
     <path
       fill="#3182CE"
