@@ -18,7 +18,7 @@ const Footer = () => (
             <a href="https://instagram.com/Chelseaconstructionllc">Instagram</a>
           </li>
           <li>
-            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+            <a href=</a>
           </li>
         </ul>
       </div>
