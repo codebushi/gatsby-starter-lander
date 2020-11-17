@@ -10,7 +10,9 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import Logo from '../components/logo-CC.png';
-
+import drywall1 from '../components/IMG_0525.jpg';
+import drywall12 from '../components/IMG_0526.jpg';
+import drywall3 from '../components/IMG_0536.jpg';
 export default () => (
   <Layout>
     <section className="pt-20 md:pt-40">
@@ -73,7 +75,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={drywall1} />}
     />
     <SplitSection
       reverseOrder
@@ -87,7 +89,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={drywall2} />}
     />
     <SplitSection
       primarySlot={
@@ -101,7 +103,7 @@ export default () => (
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts />}
+      secondarySlot={<img src={drywall3} />}
     />
     <section id="stats" className="py-20 lg:pt-32">
       <div className="container mx-auto text-center">
