@@ -27,9 +27,6 @@ const Header = () => (
           Testimonials
         </AnchorLink>
       </div>
-      <div className="hidden md:block">
-        <Button className="text-sm">Start Free Trial</Button>
-      </div>
     </div>
   </header>
 );
