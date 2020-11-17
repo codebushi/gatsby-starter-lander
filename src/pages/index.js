@@ -109,7 +109,7 @@ export default () => (
             <StatsBox primaryText="100%" secondaryText="Customer Satisfaction" />
           </div>
           <div className="w-full sm:w-1/2">
-            <StatsBox primaryText="22+" secondaryText="Projects done" />
+            <StatsBox primaryText="32+" secondaryText="Projects done" />
          </div>
         </div>
        </div>
