@@ -1,5 +1,4 @@
 import React from 'react';
-import Button from '../components/Button';
 import Card from '../components/Card';
 import CustomerCard from '../components/CustomerCard';
 import LabelText from '../components/LabelText';
@@ -24,9 +23,7 @@ export default () => (
           <p className="text-xl lg:text-2xl mt-6 font-light">
             Responsibilty, Respect, Honesty
           </p>
-          <p className="mt-8 md:mt-12">
-            <Button size="lg">Get Started</Button>
-          </p>
+          
           <p className="mt-4 text-gray-600">Portland metro areas and surroundings</p>
         </div>
         <div className="lg:w-1/2">
@@ -135,9 +132,6 @@ export default () => (
       <h3 className="text-5xl font-semibold">Ready to create your ideal home ? </h3>
       <p className="mt-8 text-xl font-light">
         Contact us! (503) 327 1232
-      </p>
-      <p className="mt-8">
-        <Button size="xl">Get Started Now</Button>
       </p>
     </section>
   </Layout>
