@@ -131,9 +131,11 @@ export default () => (
       <h3 className="text-5xl font-semibold">Ready to create your ideal home ? </h3>
       <p className="mt-8 text-xl font-light">
         Contact us! (503) 327 1232 
-        email:Chelseapdxconstruction@gmail.com
-        address: PO Box #446 Beaverton OR 97005
-        </p>
+          <p className="mt-8 text-xl font-light"> email:Chelseapdxconstruction@gmail.com
+              <p className="mt-8 text-xl font-light"></p>address: PO Box #446 Beaverton OR 97005
+            </p>
+          </p>
+      </p>
     </section>
   </Layout>
 );
