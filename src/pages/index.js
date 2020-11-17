@@ -9,7 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
-import Logo from 'CC-logo.png';
+import Logo from '../components/log-CC.png';
 
 export default () => (
   <Layout>
