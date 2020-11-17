@@ -2,7 +2,7 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import LogoIcon from '../../svg/LogoIcon';
 import Button from '../Button';
-import Logo from 'src/logo-CC.pmg'
+import Logo from 'src/logo-CC.png'
 
 const Header = () => (
   <header className="sticky top-0 bg-white shadow">
