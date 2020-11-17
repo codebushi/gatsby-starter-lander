@@ -9,6 +9,7 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import Logo from 'CC-logo.png';
 
 export default () => (
   <Layout>
@@ -27,7 +28,7 @@ export default () => (
           <p className="mt-4 text-gray-600">Portland metro areas and surroundings</p>
         </div>
         <div className="lg:w-1/2">
-          <HeroImage />
+          <img src={Logo} />
         </div>
       </div>
     </section>
