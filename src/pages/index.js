@@ -16,7 +16,7 @@ export default () => (
       <div className="container mx-auto px-8 lg:flex">
         <div className="text-center lg:text-left lg:w-1/2">
           <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-            Your PDX General Contractor
+            For all your Drywall needs
           </h1>
           <p className="text-xl lg:text-2xl mt-6 font-light">
             Responsibilty, Respect, Honesty
@@ -37,25 +37,25 @@ export default () => (
         <div className="flex flex-col sm:flex-row sm:-mx-3 mt-12">
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Framing</p>
+              <p className="font-semibold text-xl">Sheetrock Installation</p>
               <p className="mt-4">
-                From framing an extra closet or an entire room, weve got it covered.
+                From hanging a room or an entire home, weve got it covered.
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Drywall</p>
+              <p className="font-semibold text-xl">Drywall Taping</p>
               <p className="mt-4">
-                If its a 2 feet patch or an entire house needed to be hanged and taped, dont worry we got it covered.
+                We will make sure our work completes all requirements that meet all local fire and building codes. We can provide any finish level (0 to 5) you desire. 
               </p>
             </Card>
           </div>
           <div className="flex-1 px-3">
             <Card className="mb-8">
-              <p className="font-semibold text-xl">Paint</p>
+              <p className="font-semibold text-xl">Patches and Texture</p>
               <p className="mt-4">
-                Your ideas, your choice of color, our job to get it done .
+                We are available for patches of all sizes! We will match the texture that you already have on, so you cant even tell their was a patch there. If you are looking to retexture your entire house we can help with that from smooth finish, brocade, orange peel, we got it covered.  
               </p>
             </Card>
           </div>
@@ -68,7 +68,7 @@ export default () => (
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">Contractors/ Sub-Contractors</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team is selective of chosing professional sub-contractors, Leave it all up to us and we will make sure you get your project done.
+            Our team is selective of chosing professional sub-contractors, we will work with both them and the clients to make sure the project is being done right and on time.
           </p>
         </div>
       }
@@ -106,18 +106,16 @@ export default () => (
       <div className="container mx-auto text-center">
         <LabelText className="text-gray-600">Our customers get results</LabelText>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24">
-          <div className="w-full sm:w-1/3">
+          <div className="w-full sm:w-1/2">
             <StatsBox primaryText="100%" secondaryText="Customer Satisfaction" />
           </div>
-          <div className="w-full sm:w-1/3">
+          <div className="w-full sm:w-1/2">
             <StatsBox primaryText="22" secondaryText="Projects done" />
-          </div>
-          <div className="w-full sm:w-1/3">
-            <StatsBox primaryText="+100%" secondaryText="Stats Information" />
-          </div>
+         </div>
         </div>
-      </div>
-    </section>
+       </div>
+      </section>
+   
     <section id="testimonials" className="py-20 lg:py-40">
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
@@ -131,9 +129,9 @@ export default () => (
       </div>
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-      <h3 className="text-5xl font-semibold">Ready to create your ideal home ? 
+      <h3 className="text-5xl font-semibold">Ready to create your ideal home ? </h3>
       <p className="mt-8 text-xl font-light">
-        Contact us! (503) 327 1232, Chelseapdxconstruction@gmail.com 
+        Contact us! (503) 327 1232
       </p>
       <p className="mt-8">
         <Button size="xl">Get Started Now</Button>
