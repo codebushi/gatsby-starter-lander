@@ -11,7 +11,7 @@ import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import Logo from '../components/logo-CC.png';
 import drywall1 from '../components/IMG_0525.jpg';
-import drywall12 from '../components/IMG_0526.jpg';
+import drywall2 from '../components/IMG_0526.jpg';
 import drywall3 from '../components/IMG_0536.jpg';
 export default () => (
   <Layout>
