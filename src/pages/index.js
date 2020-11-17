@@ -9,7 +9,7 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 import Logo from '../components/logo-CC.png';
-import drywall1 from '../components/IMG_0525.jpg';
+import drywall1 from '../components/IMG_0524.jpg';
 import drywall2 from '../components/IMG_0536.jpg';
 import drywall3 from '../components/IMG_0545.jpg';
 export default () => (
