@@ -24,7 +24,7 @@ export default () => (
             Responsibilty, Respect, Honesty
           </p>
           
-          <p className="mt-4 text-gray-600">Portland metro areas and surroundings</p>
+          <p className="mt-4 text-gray-600">Portland metro area and surroundings</p>
         </div>
         <div className="lg:w-1/2">
           <img src={Logo} />
@@ -39,7 +39,7 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Sheetrock Installation</p>
               <p className="mt-4">
-                From hanging a room or an entire home, weve got it covered.
+                From hanging sheetrock in a room or an entire home, weve got it covered. We can use any size sheetrock. 
               </p>
             </Card>
           </div>
@@ -55,7 +55,7 @@ export default () => (
             <Card className="mb-8">
               <p className="font-semibold text-xl">Patches and Texture</p>
               <p className="mt-4">
-                We are available for patches of all sizes! We will match the texture that you already have on, so you cant even tell their was a patch there. If you are looking to retexture your entire house we can help with that from smooth finish, brocade, orange peel, we got it covered.  
+                We are available for patches of all sizes! We will match the texture that you already have on, so you cant even tell their was a patch there. If you are looking to retexture your entire house we can help. Choose from smooth finish, brocade, orange peel, etc.  
               </p>
             </Card>
           </div>
@@ -66,9 +66,9 @@ export default () => (
       id="services"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">Contractors/ Sub-Contractors</h3>
+          <h3 className="text-3xl font-semibold leading-tight">General Contractor</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team is selective of chosing professional sub-contractors, we will work with both them and the clients to make sure the project is being done right and on time.
+            As a General Contractor, we can help with all types of construction work your home needs. We know the stress that comes with remodeling your home, let us take care of it.
           </p>
         </div>
       }
@@ -79,10 +79,10 @@ export default () => (
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Design And Plan Your Ideal Home
+          Sub-Contractors
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Our team will work with you directly to assure you are getting the best work for your money.
+          Our team is selective of chosing professional sub-contractors, we will work with both them and the clients to make sure the project is being done right and on time.
           </p>
         </div>
       }
@@ -92,11 +92,10 @@ export default () => (
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
           <h3 className="text-3xl font-semibold leading-tight">
-            Search For Performance Optimization
+          Design And Plan Your Ideal Home
           </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            With all the information in place you will be presented with an action plan that your
-            company needs to follow
+            Our team will work with you directly to assure you are getting the best work for your money.
           </p>
         </div>
       }
@@ -132,8 +131,9 @@ export default () => (
       <h3 className="text-5xl font-semibold">Ready to create your ideal home ? </h3>
       <p className="mt-8 text-xl font-light">
         Contact us! (503) 327 1232 
-        Chelseapdxconstruction@gmail.com
-      </p>
+        email:Chelseapdxconstruction@gmail.com
+        address: PO Box #446 Beaverton OR 97005
+        </p>
     </section>
   </Layout>
 );
