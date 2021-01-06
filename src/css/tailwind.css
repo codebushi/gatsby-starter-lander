@@ -1,10 +1,27 @@
 @tailwind base;
 
-a {
-  @apply text-primary;
+.text-gray-600 {
+  color: #8e8e8e !important;
 }
-a:hover {
-  @apply text-primary-darker;
+
+.rounded-lg {
+  border-radius: 2.5rem;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+body {
+  background: #eeeef3;
+  color: #01002d;
+}
+
+.text-gray-900 {
+  color: #01002d !important;
+}
+.text-primary {
+  color: #01002d !important;
 }
 
 @tailwind components;
