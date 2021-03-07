@@ -2,7 +2,7 @@
   "name": "gatsby-starter-lander",
   "author": "Hunter Chang",
   "repository": "https://github.com/codebushi/gatsby-starter-lander",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "gatsby": "^3.0.3",
-    "gatsby-plugin-emotion": "^6.1.0-next.1",
+    "gatsby-plugin-emotion": "^6.0.0",
     "gatsby-theme-codebushi": "^1.0.0",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
