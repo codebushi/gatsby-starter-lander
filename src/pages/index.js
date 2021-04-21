@@ -10,7 +10,7 @@ import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
 
-export default () => (
+const Index = () => (
   <Layout>
     <section className="pt-20 md:pt-40">
       <div className="container mx-auto px-8 lg:flex">
@@ -147,3 +147,5 @@ export default () => (
     </section>
   </Layout>
 );
+
+export default Index;

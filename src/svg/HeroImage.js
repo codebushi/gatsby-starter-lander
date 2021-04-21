@@ -4,7 +4,7 @@ const HeroImage = () => (
   <svg
     data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
-    xLink="http://www.w3.org/1999/xlink"
+    xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 1167.52 754.06"
   >
     <defs>
