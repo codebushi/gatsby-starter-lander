@@ -5,30 +5,30 @@ const Footer = () => (
     <div className="flex -mx-3">
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">About Us</h2>
-        <p className="mt-5">Ridiculus mus mauris vitae ultricies leo integer malesuada nunc.</p>
+        <p className="mt-5">
+          <p>Tanmu Project Management Services is a consultancy based in Dubai, United Arab Emirates.</p>
+          <small>Copyright &copy; 2021 Tanmu Project Management Services. All rights reserved</small>
+        </p>
       </div>
       <div className="flex-1 px-3">
         <h2 className="text-lg font-semibold">Important Links</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://codebushi.com">Terms &amp; Conditions</a>
+            <a href="">Terms &amp; Conditions</a>
           </li>
           <li>
-            <a href="https://codebushi.com">Privacy Policy</a>
+            <a href="">Privacy Policy</a>
           </li>
         </ul>
       </div>
       <div className="flex-1 px-3">
-        <h2 className="text-lg font-semibold">Social Media</h2>
+        <h2 className="text-lg font-semibold">Contact Information</h2>
         <ul className="mt-4 leading-loose">
           <li>
-            <a href="https://dev.to/changoman">Dev.to</a>
+            Email: <a href="mailto:info@tanmupms.com?Subject=Business%20Enquiry" target="_top">info@tanmupms.com</a>
           </li>
           <li>
-            <a href="https://twitter.com/HuntaroSan">Twitter</a>
-          </li>
-          <li>
-            <a href="https://github.com/codebushi/gatsby-starter-lander">GitHub</a>
+            Phone: <a href="tel:+971506520495">+971506520495</a>
           </li>
         </ul>
       </div>
