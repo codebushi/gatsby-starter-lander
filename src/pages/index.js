@@ -9,13 +9,15 @@ import StatsBox from '../components/StatsBox';
 import customerData from '../data/customer-data';
 import HeroImage from '../svg/HeroImage';
 import SvgCharts from '../svg/SvgCharts';
+import SEO from '../components/seo';
 
 const Index = () => (
 	<Layout>
+		<SEO title="Tanmu Project Management" />
 		<section className="pt-20 md:pt-40">
 			<div className="container mx-auto px-8 lg:flex">
 				<div className="text-center lg:text-left lg:w-1/2">
-					<h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">Tanmu</h1>
+					<h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">TANMU</h1>
 					<p className="text-xl lg:text-2xl mt-6 font-light">Project Management Services</p>
 				</div>
 				<div className="lg:w-1/2">
@@ -35,15 +37,6 @@ const Index = () => (
 						<Card className="mb-8">
 							<p className="font-semibold text-xl">Conceptualisation Stage</p>
 							<p className="mt-4">
-								An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio velna
-								vitae auctor integer.
-							</p>
-						</Card>
-					</div>
-					<div className="flex-1 px-3">
-						<Card className="mb-8">
-							<p className="font-semibold text-xl">Creation Stage</p>
-							<p className="mt-4">
 								<ul>
 									<li>Owner's Representation</li>
 									<li>Feasability</li>
@@ -58,10 +51,33 @@ const Index = () => (
 					</div>
 					<div className="flex-1 px-3">
 						<Card className="mb-8">
+							<p className="font-semibold text-xl">Creation Stage</p>
+							<p className="mt-4">
+								<ul>
+									<li>Owner's Representation</li>
+									<li>Design Development</li>
+									<li>Technical Direction</li>
+									<li>Energy Optimisation</li>
+									<li>Vendor Selection</li>
+									<li>Review of Compliance</li>
+									<li>Technical Integration</li>
+								</ul>
+							</p>
+						</Card>
+					</div>
+					<div className="flex-1 px-3">
+						<Card className="mb-8">
 							<p className="font-semibold text-xl">Execution Stage</p>
 							<p className="mt-4">
-								An enim nullam tempor gravida donec enim ipsum blandit porta justo integer odio velna
-								vitae auctor integer.
+								<ul>
+									<li>Owner's Representation</li>
+									<li>Project Management</li>
+									<li>Procurement</li>
+									<li>FF&E and OSE</li>
+									<li>Quality Monitoring</li>
+									<li>Testung & Commissioning</li>
+									<li>Handover Documentation</li>
+								</ul>
 							</p>
 						</Card>
 					</div>
@@ -76,12 +92,17 @@ const Index = () => (
 						COURTYARD BY MARRIOTT AT DUBAI CULTURE VILLAGE - DUBAI, UAE.
 					</h3>
 					<p className="mt-8 text-xl font-light leading-relaxed">
-						168 Rooms 4 Star Property Managed by Marriott International. Tanmu Project Management Services
-						has been appointed by MFK Trading FZE to act as the Client Representative especially for the
-						Electromechanical Services and hotel operator liaisons. During the execution, the Client added
-						additional work to our scope of services like Procurement Management, Cash Flow, Cost Control
-						and FF&E/OSE. The project has been successfully completed and handed over to the operator
-						Marriott International
+						<p>168 Rooms 4 Star Property Managed by Marriott International.</p>
+						<p>
+							Tanmu Project Management Services has been appointed by MFK Trading FZE to act as the Client
+							Representative especially for the Electromechanical Services and hotel operator liaisons.
+							During the execution, the Client added additional work to our scope of services like
+							Procurement Management, Cash Flow, Cost Control and FF&E/OSE.
+						</p>
+						<p>
+							The project has been successfully completed and handed over to the operator Marriott
+							International
+						</p>
 					</p>
 				</div>
 			}
@@ -91,10 +112,18 @@ const Index = () => (
 			reverseOrder
 			primarySlot={
 				<div className="lg:pl-32 xl:pl-48">
-					<h3 className="text-3xl font-semibold leading-tight">Design And Plan Your Business Growth Steps</h3>
+					<h3 className="text-3xl font-semibold leading-tight">MARRIOTT HOTEL AT AL JADDAF - DUBAI, UAE.</h3>
 					<p className="mt-8 text-xl font-light leading-relaxed">
-						Once the market analysis process is completed our staff will search for opportunities that are
-						in reach
+						<p>
+							1 Million Square Feet BUA, 352 Rooms, 7 F&B Outlets 5 Star Property Managed by Marriott
+							International
+						</p>
+						<p>
+							The principal of Tanmu Project Management Services act as the Client Representative and
+							managed the entire process from the concept development stage to the project handing over to
+							the Operator Marriott International.{' '}
+						</p>
+						<p>The project has been successfully completed in 2014. </p>
 					</p>
 				</div>
 			}
@@ -103,10 +132,36 @@ const Index = () => (
 		<SplitSection
 			primarySlot={
 				<div className="lg:pr-32 xl:pr-48">
-					<h3 className="text-3xl font-semibold leading-tight">Search For Performance Optimization</h3>
+					<h3 className="text-3xl font-semibold leading-tight">
+						MARRIOTT EXECUTIVE APARTMENTS AT AL JADDAF - DUBAI, UAE.
+					</h3>
 					<p className="mt-8 text-xl font-light leading-relaxed">
-						With all the information in place you will be presented with an action plan that your company
-						needs to follow
+						<p>128 Deluxe Apartment Property Managed by Marriott International.</p>
+						<p>
+							The principal of Tanmu Project Management Services act as the Client Representative managed
+							the entire process from the concept development stage to the project handing over to the
+							Operator Marriott International.{' '}
+						</p>
+						<p>The project has been successfully completed in 2014.</p>
+					</p>
+				</div>
+			}
+			secondarySlot={<SvgCharts />}
+		/>
+		<SplitSection
+			primarySlot={
+				<div className="lg:pr-32 xl:pr-48">
+					<h3 className="text-3xl font-semibold leading-tight">
+						MARRIOTT STAFF ACCOMMODATION BUILDING- DUBAILAND, UAE.
+					</h3>
+					<p className="mt-8 text-xl font-light leading-relaxed">
+						<p>114 Apartment Property Managed by Marriott International.</p>
+						<p>
+							The principal of Tanmu Project Management Services act as the Client Representative and
+							managed the entire process from the concept development stage to the project handing over to
+							the Operator Marriott International.
+						</p>
+						<p>The project has been successfully completed in 2016.</p>
 					</p>
 				</div>
 			}
@@ -141,10 +196,8 @@ const Index = () => (
 			</div>
 		</section>
 		<section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
-			<h3 className="text-5xl font-semibold">Ready to grow your business?</h3>
-			<p className="mt-8 text-xl font-light">
-				Quis lectus nulla at volutpat diam ut. Enim lobortis scelerisque fermentum dui faucibus in.
-			</p>
+			<h3 className="text-5xl font-semibold">Experience world class project management</h3>
+			<p className="mt-8 text-xl font-light">Get in touch with us today!</p>
 			<p className="mt-8">
 				<Button size="xl">Get Started Now</Button>
 			</p>
