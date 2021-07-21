@@ -5,9 +5,9 @@ const HeroImage = () => (
 		id="a644d002-dee1-4c60-b6d8-14071a55f848"
 		data-name="Layer 1"
 		xmlns="http://www.w3.org/2000/svg"
-		width="1167.52"
-		height="754.06"
-		viewBox="0 0 1167.52 754.06"
+		width="450.92126"
+		height="500.45739"
+		viewBox="0 0 450.92126 597.45739"
 	>
 		<circle
 			id="a21b076b-2a02-49a5-bb32-17a8ec3aa4f0"
