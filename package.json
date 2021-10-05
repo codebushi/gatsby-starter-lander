@@ -9,8 +9,8 @@
     "build": "gatsby build"
   },
   "dependencies": {
-    "gatsby": "alpha-9689ff",
-    "gatsby-plugin-emotion": "alpha-9689ff",
+    "gatsby": "next",
+    "gatsby-plugin-emotion": "next",
     "gatsby-theme-codebushi": "^1.0.0",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
