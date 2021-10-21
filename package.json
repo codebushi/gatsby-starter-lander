@@ -6,10 +6,13 @@
   "license": "MIT",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.0.0-zz-next.2",
+    "gatsby": "^4.0.0-zz-next.1",
     "gatsby-plugin-emotion": "^7.0.0-zz-next.1",
     "gatsby-theme-codebushi": "^1.0.0",
     "react": "^17.0.1",
