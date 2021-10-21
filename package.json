@@ -12,8 +12,8 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^4.0.0-zz-next.1",
-    "gatsby-plugin-emotion": "^7.0.0-zz-next.1",
+    "gatsby": "^4.0.0",
+    "gatsby-plugin-emotion": "^7.0.0",
     "gatsby-theme-codebushi": "^1.0.0",
     "postcss": "^8.3.8",
     "react": "^17.0.1",
