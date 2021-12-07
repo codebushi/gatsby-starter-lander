@@ -1,8 +1,10 @@
 @tailwind base;
 
+/* text-primary does not exist in tailwind 2.x
 a {
   @apply text-primary;
 }
+*/
 a:hover {
   @apply text-primary-darker;
 }
