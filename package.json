@@ -14,7 +14,7 @@
   "dependencies": {
     "gatsby": "^4.0.0",
     "gatsby-plugin-emotion": "^7.0.0",
-    "gatsby-theme-codebushi": "^1.0.0",
+    "gatsby-theme-codebushi": "1.1.0",
     "postcss": "^8.3.8",
     "react": "^17.0.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
@@ -30,5 +30,9 @@
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1"
+  },
+  "volta": {
+    "node": "16.13.0",
+    "yarn": "1.22.17"
   }
 }
